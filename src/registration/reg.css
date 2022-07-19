@@ -1,0 +1,85 @@
+h1
+{
+    color: #E0002D;
+    margin-top:5%;
+
+}
+form
+{
+    margin-top: 2%;
+}
+label
+{
+    font-weight: bold;
+}
+#name
+{
+    color: aliceblue;
+    background-color: #9BC4FD;
+    width: 50%;
+}
+#street
+{
+    width: 50%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#number
+{
+    width: 50%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#postcode
+{
+    width: 50%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#place
+{
+    width: 50%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#email
+{
+    width: 50%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#telephonenumber
+{
+    width: 50%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#country
+{
+    width: 24%;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+    margin-left: 6%;
+}
+.btn
+{
+    margin-top: 2%;
+background-color:#E0002D ;
+color: aliceblue;
+}
+p{
+    margin-top: 3%;
+    font-weight: bold;
+    text-align: center;
+}
+.row
+{
+    margin-left: 5%;
+}
