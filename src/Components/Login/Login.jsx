@@ -14,7 +14,6 @@ function Login() {
     var { email, password } = document.forms[0];
     const url = process.env.REACT_APP_BACKEND_URL + "users/login";
     const data = { email: email.value, password: password.value };
-    console.log(JSON.stringify(data));
     fetch(url, {
       method: "POST",
       body: JSON.stringify(data),

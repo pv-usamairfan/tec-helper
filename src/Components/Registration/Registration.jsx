@@ -4,25 +4,25 @@ function Registration() {
     <>
       <h1>Please register. </h1>
       <form>
-        <div class="row">
-          <div class="col">
-            <div class="mb-3">
-              <div class="row">
-                <label for="name" class="form-label">
+        <div className="row">
+          <div className="col">
+            <div className="mb-3">
+              <div className="row">
+                <label for="name" className="form-label">
                   What's your name?
                 </label>
-                <div class="col">
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="name"
                     placeholder="first name"
                   ></input>
                 </div>
-                <div class="col">
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="name"
                     placeholder="last name"
                   ></input>
@@ -30,71 +30,71 @@ function Registration() {
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="mb-3">
-              <div class="row">
-                <label for="street" class="form-label">
+          <div className="col">
+            <div className="mb-3">
+              <div className="row">
+                <label for="street" className="form-label">
                   Where are you living?
                 </label>
-                <div class="col">
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="street"
                     placeholder="Street"
                   ></input>
                 </div>
-                <div class="col">
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="number"
                     placeholder="Number"
                   ></input>
                 </div>
               </div>
-              <div class="row" style={{ marginTop: "3%" }}>
-                <div class="col">
+              <div className="row" style={{ marginTop: "3%" }}>
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="postcode"
                     placeholder="post code"
                   ></input>
                 </div>
-                <div class="col">
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="place"
                     placeholder="Place"
                   ></input>
                 </div>
               </div>
             </div>
-            {/* <div class="button"> */}
+            {/* <div className="button"> */}
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <div class="mb-3">
-              <div class="row">
-                <label for="email" class="form-label">
+        <div className="row">
+          <div className="col">
+            <div className="mb-3">
+              <div className="row">
+                <label for="email" className="form-label">
                   How can we reach you?
                 </label>
 
-                <div class="col">
+                <div className="col">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="email"
                     placeholder="e-mail"
                   ></input>
                 </div>
-                <div class="col">
+                <div className="col">
                   <input
                     type="number"
-                    class="form-control"
+                    className="form-control"
                     id="telephonenumber"
                     placeholder="telephone number"
                   ></input>
@@ -103,44 +103,44 @@ function Registration() {
             </div>
           </div>
 
-          <div class="col">
+          <div className="col">
             <br></br>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="country"
               placeholder="Country"
             ></input>
           </div>
         </div>
         <div
-          class="row"
+          className="row"
           style={{ margin: "auto", marginTop: "5%", width: "20%" }}
         >
-          <div class="form-check">
+          <div className="form-check">
             <input
-              class="form-check-input"
+              className="form-check-input"
               type="checkbox"
               value=""
               id="flexCheckDefault"
             ></input>
-            <label class="form-check-label" for="flexCheckDefault">
+            <label className="form-check-label" for="flexCheckDefault">
               I have read terms of use and accept them
             </label>
           </div>
-          <div class="form-check">
+          <div className="form-check">
             <input
-              class="form-check-input"
+              className="form-check-input"
               type="checkbox"
               value=""
               id="flexCheckDefault "
             ></input>
-            <label class="form-check-label" for="flexCheckChecked">
+            <label className="form-check-label" for="flexCheckChecked">
               I accept the data protection policy
             </label>
           </div>
         </div>
-        <button type="submit" class="btn">
+        <button type="submit" className="btn">
           Submit
         </button>
         {/* </div> */}
