@@ -1,7 +1,9 @@
 import "./Registration.css";
+import Header from "../Header/Header";
 function Registration() {
   return (
     <>
+      <Header></Header>
       <h1>Please register. </h1>
       <form>
         <div className="row">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Header from "../Header/Header";
 import "./Login.css";
 
 function Login() {
@@ -34,6 +34,7 @@ function Login() {
 
   return (
     <>
+      <Header></Header>
       <h1>Login to your account. </h1>
       <form onSubmit={handleSubmit}>
         <div className="row">

@@ -1,0 +1,105 @@
+#header {
+  position: absolute;
+  width: 250px;
+}
+#header .pro-sidebar {
+  height: 100vh;
+}
+#header .pro-sidebar {
+  width: 100%;
+  min-width: 100%;
+}
+#header .pro-sidebar.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+#header .pro-sidebar-inner {
+  background-color: rgb(244, 209, 209);
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+}
+#header .pro-sidebar-inner .pro-sidebar-layout {
+  overflow-y: hidden;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout .pro-sidebar-header {
+  border-bottom: 1px solid rgb(146, 146, 146);
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout .pro-sidebar-header p {
+  color: #000;
+  margin: 10px 10px;
+  font-weight: bold;
+  font-size: large;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout ul {
+  padding: 0 5px;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+  color: #000;
+  font-weight: bold;
+}
+#header
+  .pro-sidebar-inner
+  .pro-sidebar-layout
+  ul
+  .pro-inner-item
+  .pro-icon-wrapper {
+  background-color: #fbf4cd;
+  color: #000;
+  border-radius: 3px;
+}
+#header
+  .pro-sidebar-inner
+  .pro-sidebar-layout
+  ul
+  .pro-inner-item
+  .pro-icon-wrapper
+  .pro-item-content {
+  color: #000;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout .active {
+  background-image: linear-gradient(0deg, #f47878 0%, #f50000 100%);
+}
+#header .logo {
+  position: relative;
+  top: 10%;
+  left: 34%;
+  height: 80px;
+  margin-top: 10%;
+}
+.titleText li div span {
+  color: black !important;
+}
+.pro-item-content {
+  color: red;
+}
+
+.book-button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  position: relative;
+  background-color: rgb(244, 209, 209);
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu {
+  border-bottom: 1px solid rgb(146, 146, 146);
+}
+.pro-arrow {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    overflow: hidden;
+  }
+}

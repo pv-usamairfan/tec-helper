@@ -1,0 +1,6 @@
+module.exports = {
+  PENDING: "PENDING",
+  ACCEPTED: "ACCEPTED",
+  COMPLETED: "COMPLETED",
+  CLOSED: "CLOSED",
+};
