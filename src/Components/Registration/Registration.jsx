@@ -1,4 +1,4 @@
-import "./Registration.css";
+import "./Registration.scss";
 import Header from "../Header/Header";
 function Registration() {
   return (
