@@ -13,7 +13,7 @@ const BookAppointment = () => {
           <div className="rounded-box">
             <h1>
               This is how our{" "}
-              <span style={{ color: "red" }}>appoitment booking system</span>{" "}
+              <span style={{ color: "red" }}>appointment booking system</span>{" "}
               works.
               <br></br> 3 easy steps, so that we can help you.
             </h1>
