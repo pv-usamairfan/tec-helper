@@ -1,0 +1,43 @@
+h1
+{
+    color: #E0002D;
+    margin-top:15%;
+    margin-left: 6%;
+
+}
+form
+{
+    margin-top: 2%;
+}
+label
+{
+    font-weight: bold;
+}
+#exampleInputEmail1
+{
+    width: auto;
+    background-color: #9BC4FD;
+}
+#exampleInputPassword1
+{   
+    /* margin-top: %; */
+    width: auto;
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+.btn
+{
+    margin-top: 10%;
+background-color:#E0002D ;
+color: aliceblue;
+margin-left: 47%;
+}
+p{
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+.row
+{
+    margin-left: 5%;
+}
