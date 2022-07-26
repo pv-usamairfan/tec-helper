@@ -1,0 +1,101 @@
+h1
+{
+    color: #E0002D;
+    margin-top:5%;
+
+}
+form
+{
+    margin-top: 2%;
+}
+label
+{
+    font-weight: bold;
+}
+#name
+{
+    color: aliceblue;
+    background-color: #9BC4FD;
+    width: auto;
+}
+#street
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#number
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#postcode
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#place
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#email
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#telephonenumber
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+}
+#password
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+    /* margin-left: 3.2%; */
+}
+#role
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+    /* margin-left: 3.2% ; */
+}
+#country
+{
+    width: auto;
+
+    background-color: #9BC4FD;
+    color: aliceblue;
+    /* margin-left: 6.5%; */
+}
+.btn
+{
+    margin-top: 2%;
+background-color:#E0002D ;
+color: aliceblue;
+}
+p{
+    margin-top: 3%;
+    font-weight: bold;
+    text-align: center;
+}
+.row
+{
+    margin-left: 5%;
+}

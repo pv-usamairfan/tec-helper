@@ -1,4 +1,6 @@
 import "./App.css";
+import Header from "./Components/Header/Header";
+import LandingPage from "./Components/Landing-Page/LandingPage";
 import Login from "./Components/Login/Login";
 import Registration from "./Components/Registration/Registration";
 import { Route, Routes } from "react-router-dom";
@@ -19,6 +21,7 @@ function App() {
             element={<UpcomingAppointments />}
           />
           <Route path="bookAppointment" element={<BookAppointment />} />
+          <Route path="" element={<LandingPage />} />
         </Route>
       </Routes>
     </>

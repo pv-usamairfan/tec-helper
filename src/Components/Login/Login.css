@@ -15,12 +15,13 @@ label
 }
 #exampleInputEmail1
 {
-    max-width: 15%;
+    width: auto;
     background-color: #9BC4FD;
 }
 #exampleInputPassword1
-{
-    max-width: 15%;
+{   
+    /* margin-top: %; */
+    width: auto;
     background-color: #9BC4FD;
     color: aliceblue;
 }
