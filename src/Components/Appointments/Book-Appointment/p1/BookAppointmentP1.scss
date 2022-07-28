@@ -1,0 +1,91 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.calendar-container {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.time-selector {
+  width: 50%;
+}
+#duration {
+  width: 100%;
+  display: block;
+}
+
+.sdp {
+  width: 100% !important;
+  height: 400px !important;
+  border: 1px solid !important;
+  font-size: large !important;
+}
+
+.sdp--dates-grid {
+  gap: 20px !important;
+}
+
+.float-container {
+  padding: 20px;
+}
+
+.seven {
+  width: 35%;
+  float: left;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.seven .ng-invalid::before {
+  background: red;
+}
+
+.seven .ng-valid::before {
+  background: green;
+}
+
+input,
+select {
+  padding: 5px 5px 5px 10px;
+  outline: none;
+}
+
+input {
+  width: 200px;
+  font-size: large;
+}
+
+label {
+  display: block;
+  font-size: medium;
+}
+
+.seven span {
+  position: relative;
+  display: inline-block;
+}
+
+.seven span::before {
+  position: relative;
+  content: "";
+  display: block;
+  width: 4px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+select {
+  appearance: none;
+  padding-right: 14px;
+}
+
+.seven input::-webkit-calendar-picker-indicator {
+  display: none;
+  color: blue;
+}

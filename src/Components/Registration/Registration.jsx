@@ -3,7 +3,6 @@ import Header from "../Header/Header";
 import "./Registration.css";
 function Registration() {
   const [errorMessages, setErrorMessages] = useState({});
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const renderErrorMessage = () => (
     <div className="error">{errorMessages.message}</div>

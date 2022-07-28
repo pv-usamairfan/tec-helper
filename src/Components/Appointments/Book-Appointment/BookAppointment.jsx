@@ -3,6 +3,7 @@ import SideBar from "../../Side-Bar/SideBar";
 import "./BookAppointment.scss";
 import { BsCalendar3, BsPuzzle, BsCheck2 } from "react-icons/bs";
 import { RiVideoChatLine } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
 const BookAppointment = () => {
   return (
@@ -54,7 +55,9 @@ const BookAppointment = () => {
             </div>
           </div>
           <div>
-            <button className="book-button">Book an appointment</button>
+            <NavLink to="p1">
+              <button className="book-button">Book an appointment</button>
+            </NavLink>
           </div>
         </div>
         <h1 style={{ textAlign: "center", width: "75%", marginTop: "20px" }}>

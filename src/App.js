@@ -8,6 +8,7 @@ import Layout from "./Components/Layout/Layout";
 import PastAppointments from "./Components/Appointments/Past-Appointments/PastAppointments";
 import UpcomingAppointments from "./Components/Appointments/Upcoming-Appointments/UpcomingAppointments";
 import BookAppointment from "./Components/Appointments/Book-Appointment/BookAppointment";
+import BookAppointmentP1 from "./Components/Appointments/Book-Appointment/p1/BookAppointmentP1";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
             element={<UpcomingAppointments />}
           />
           <Route path="bookAppointment" element={<BookAppointment />} />
+          <Route path="bookAppointment/p1" element={<BookAppointmentP1 />} />
           <Route path="" element={<LandingPage />} />
         </Route>
       </Routes>

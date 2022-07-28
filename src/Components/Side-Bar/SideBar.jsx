@@ -62,7 +62,9 @@ const SideBar = () => {
           <SidebarFooter>
             <Menu>
               <MenuItem>
-                <button className="book-button">Book an appointment</button>
+                <button className="sidebar-book-button">
+                  Book an appointment
+                </button>
               </MenuItem>
             </Menu>
           </SidebarFooter>
